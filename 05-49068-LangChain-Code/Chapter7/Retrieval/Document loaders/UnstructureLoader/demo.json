@@ -1,0 +1,16 @@
+{  
+  "name": "张三",  
+  "age": 30,  
+  "email": "zhangsan@example.com",  
+  "isStudent": false,  
+  "address": {  
+    "street": "123 大街",  
+    "city": "北京",  
+    "country": "中国"  
+  },  
+  "phoneNumbers": [  
+    "13800138000",  
+    "13900139000"  
+  ],  
+  "hobbies": ["阅读", "旅行", "编程"]  
+}

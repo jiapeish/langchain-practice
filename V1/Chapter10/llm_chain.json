@@ -1,0 +1,41 @@
+{
+    "name": null,
+    "memory": null,
+    "verbose": true,
+    "tags": null,
+    "metadata": null,
+    "prompt": {
+        "name": null,
+        "input_variables": [
+            "city"
+        ],
+        "input_types": {},
+        "output_parser": null,
+        "partial_variables": {},
+        "metadata": null,
+        "tags": null,
+        "template": " {city}\u7684\u7279\u4ea7\u662f\u4ec0\u4e48 ?",
+        "template_format": "f-string",
+        "validate_template": false,
+        "_type": "prompt"
+    },
+    "llm": {
+        "model_name": "gpt-3.5-turbo-instruct",
+        "temperature": 0.0,
+        "top_p": 1,
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "n": 1,
+        "logit_bias": {},
+        "max_tokens": 256,
+        "_type": "openai"
+    },
+    "output_key": "text",
+    "output_parser": {
+        "name": null,
+        "_type": "default"
+    },
+    "return_final_only": true,
+    "llm_kwargs": {},
+    "_type": "llm_chain"
+}

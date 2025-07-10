@@ -1,0 +1,15 @@
+{
+    "name": null,
+    "input_variables": [
+        "city"
+    ],
+    "input_types": {},
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": " {city}\u7684\u7279\u4ea7\u662f\u4ec0\u4e48 ?",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
